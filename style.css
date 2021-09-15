@@ -1,0 +1,45 @@
+:root {
+  --black: #030406;
+  --white: #f5f5f7;
+  --icon-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  height: 44px;
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-inner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.header-inner-container > span,
+i {
+  cursor: pointer;
+}
+
+.icon {
+  font-size: var(--icon-size);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1100px) {
+  .header-container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
