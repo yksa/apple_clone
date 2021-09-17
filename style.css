@@ -26,6 +26,7 @@ button {
   border-radius: 30px;
   border: 2px solid black;
   font-size: 17px;
+  background-color: white;
 }
 
 .header-container {
@@ -211,6 +212,33 @@ i {
   margin-top: 15px;
 }
 .section4 > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.section5 {
+  height: 900px;
+  background-image: url("./assets/ipad_mini.jpg");
+  background-repeat: no-repeat;
+  background-position: 110% 140px;
+  background-size: 750px 900px;
+}
+.section5 > div:nth-child(1) {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section5 > div > img {
+  margin-bottom: 29px;
+}
+.section5 > div > div > button {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.section5 > div > div > button:hover {
   background-color: black;
   color: white;
 }
